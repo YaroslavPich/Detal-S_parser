@@ -3,4 +3,5 @@ state.json
 playwright_profile/
 parser.log
 __pycache__/
+**/__pycache__/
 .venv/
