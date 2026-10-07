@@ -1,0 +1,698 @@
+2026-10-07 20:57:26,251 - INFO - Початок швидкого пошуку для артикула: W1160
+2026-10-07 20:57:27,713 - INFO - Сесія відсутня. Виконуємо первинний вхід...
+2026-10-07 20:57:33,963 - INFO - Сесію успішно збережено у state.json
+2026-10-07 20:57:38,989 - INFO - Успішно знайдено: MANN-FILTER W 1160 — Ціна: 617.82
+2026-10-07 20:58:12,211 - INFO - Початок швидкого пошуку для артикула: OX188
+2026-10-07 20:58:19,025 - WARNING - Товар OX188 не знайдено.
+2026-10-07 20:58:33,652 - INFO - Початок швидкого пошуку для артикула: OX188
+2026-10-07 20:58:40,422 - WARNING - Товар OX188 не знайдено.
+2026-10-07 20:59:01,422 - INFO - Початок швидкого пошуку для артикула: OX188
+2026-10-07 20:59:08,360 - WARNING - Товар OX188 не знайдено.
+2026-10-07 20:59:29,668 - INFO - Початок швидкого пошуку для артикула: OX182
+2026-10-07 20:59:37,718 - WARNING - Товар OX182 не знайдено.
+2026-10-07 20:59:48,126 - INFO - Початок швидкого пошуку для артикула: 1 457 429 178
+2026-10-07 20:59:54,805 - WARNING - Товар 1 457 429 178 не знайдено.
+2026-10-07 21:00:33,801 - INFO - Початок роботи для артикула: 1 457 429 178
+2026-10-07 21:00:35,101 - INFO - Перехід на сторінку авторизації...
+2026-10-07 21:00:36,315 - INFO - Натискаємо кнопку входу...
+2026-10-07 21:00:40,699 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=1 457 429 178&save=true&search_mode=strict
+2026-10-07 21:00:43,850 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:00:43,863 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=1%20457%20429%20178&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:00:43,976 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:00:43,977 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:00:44,444 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=1%20457%20429%20178&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:00:44,512 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=1%20457%20429%20178&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:00:44,543 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:00:44,563 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:00:44,600 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:00:44,606 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:00:44,921 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=1%20457%20429%20178&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:00:45,093 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:00:47,513 - INFO - Успішно знайдено товар: BOSCH 1 457 429 178 з ціною 188.1
+2026-10-07 21:01:26,614 - INFO - Початок роботи для артикула: OX182
+2026-10-07 21:01:28,014 - INFO - Перехід на сторінку авторизації...
+2026-10-07 21:01:29,028 - INFO - Натискаємо кнопку входу...
+2026-10-07 21:01:33,057 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:01:33,061 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?badges=season&per_page=6&page=1&products_as=arr&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525 [Status: 200]
+2026-10-07 21:01:33,330 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OX182&save=true&search_mode=strict
+2026-10-07 21:01:33,740 - ERROR - Помилка парсингу JSON: Response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+Response body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.
+2026-10-07 21:01:33,741 - ERROR - Помилка парсингу JSON: Response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+Response body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.
+2026-10-07 21:01:35,438 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:01:35,493 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=OX182&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:01:35,557 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:01:35,558 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:01:35,898 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=OX182&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:01:35,909 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=OX182&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:01:35,911 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:01:35,931 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:01:35,940 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:01:35,961 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:01:36,369 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=OX182&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:01:36,460 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:01:39,275 - INFO - Успішно знайдено товар: BOSCH 1 457 429 178 з ціною 188.1
+2026-10-07 21:02:28,510 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 21:02:29,819 - INFO - Перехід на сторінку авторизації...
+2026-10-07 21:02:31,009 - INFO - Натискаємо кнопку входу...
+2026-10-07 21:02:35,320 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=E610H D38&save=true&search_mode=strict
+2026-10-07 21:02:35,348 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:02:35,524 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?badges=season&per_page=6&page=1&products_as=arr&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525 [Status: 200]
+2026-10-07 21:02:35,744 - ERROR - Помилка парсингу JSON: Response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+Response body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.
+2026-10-07 21:02:35,746 - ERROR - Помилка парсингу JSON: Response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+Response body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.
+2026-10-07 21:02:37,469 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:02:37,483 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:02:37,516 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:02:37,547 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:02:37,844 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:02:37,895 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:02:38,010 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:02:38,076 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:02:38,078 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:02:38,104 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:02:38,494 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=E610H%20D38&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:02:38,607 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:02:41,314 - INFO - Успішно знайдено товар: HENGST FILTER E610H D38 з ціною 165.6
+2026-10-07 21:04:25,771 - INFO - Початок роботи для артикула: WY 301
+2026-10-07 21:04:27,191 - INFO - Перехід на сторінку авторизації...
+2026-10-07 21:04:28,223 - INFO - Натискаємо кнопку входу...
+2026-10-07 21:04:32,571 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=WY 301&save=true&search_mode=strict
+2026-10-07 21:04:34,820 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:04:34,890 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=WY%20301&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:04:34,969 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:04:34,971 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:04:35,390 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=WY%20301&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:04:35,429 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:04:35,456 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=WY%20301&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:04:35,496 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:04:35,528 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:04:35,554 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:04:35,829 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=WY%20301&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:04:35,890 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:04:38,446 - INFO - Успішно знайдено товар: WUNDER FILTER WY 301 з ціною 109.92
+2026-10-07 21:05:20,998 - INFO - Початок пошуку для артикула: WY 301
+2026-10-07 21:05:27,868 - WARNING - Товар WY 301 не знайдено.
+2026-10-07 21:05:30,820 - INFO - Початок пошуку для артикула: WY 301
+2026-10-07 21:05:37,370 - WARNING - Товар WY 301 не знайдено.
+2026-10-07 21:06:50,164 - INFO - Початок роботи для артикула: WY 301
+2026-10-07 21:06:54,807 - INFO - Перехід на сторінку авторизації...
+2026-10-07 21:06:56,376 - INFO - Натискаємо кнопку входу...
+2026-10-07 21:07:00,738 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=WY 301&save=true&search_mode=strict
+2026-10-07 21:07:04,160 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:07:04,171 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=WY%20301&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:07:04,320 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:07:04,321 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:07:04,625 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=WY%20301&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:07:04,650 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:07:04,689 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=WY%20301&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:07:04,706 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:07:04,847 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:07:04,910 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:07:05,105 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=WY%20301&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:07:05,175 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:07:08,142 - INFO - Успішно знайдено товар: WUNDER FILTER WY 301 з ціною 109.92
+2026-10-07 21:07:50,098 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 21:07:52,706 - INFO - Перехід на сторінку авторизації...
+2026-10-07 21:07:54,089 - INFO - Натискаємо кнопку входу...
+2026-10-07 21:07:58,504 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=E610H D38&save=true&search_mode=strict
+2026-10-07 21:08:01,733 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:08:01,740 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:08:01,773 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:08:01,793 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:08:01,950 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:08:01,957 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:08:02,180 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:08:02,226 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:08:02,283 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:08:02,307 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:08:02,665 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=E610H%20D38&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:08:02,834 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:08:04,759 - INFO - Успішно знайдено товар: HENGST FILTER E610H D38 з ціною 165.6
+2026-10-07 21:11:32,960 - INFO - Ініціалізація постійного браузера (одноразовий вхід)...
+2026-10-07 21:11:38,604 - INFO - Виконуємо первинний вхід у систему...
+2026-10-07 21:11:43,072 - INFO - Вхід успішно виконано та збережено у профіль.
+2026-10-07 21:11:43,074 - INFO - Швидкий пошук артикула: E610H D38
+2026-10-07 21:11:47,100 - INFO - Знайдено ціну: 165.6
+2026-10-07 21:12:11,138 - INFO - Швидкий пошук артикула: HU 611/1 X
+2026-10-07 21:12:15,487 - WARNING - Товар HU 611/1 X не знайдено.
+2026-10-07 21:13:58,225 - INFO - Ініціалізація постійного браузера (одноразовий вхід)...
+2026-10-07 21:14:05,531 - INFO - Сесія вже активна з попереднього разу, пропуску логіну.
+2026-10-07 21:14:05,533 - INFO - Швидкий пошук артикула: HU 611/1 X
+2026-10-07 21:14:09,162 - WARNING - Товар HU 611/1 X не знайдено.
+2026-10-07 21:16:00,491 - INFO - Початок роботи для артикула: HU 611/1 X
+2026-10-07 21:16:02,065 - INFO - Перехід на сторінку авторизації...
+2026-10-07 21:16:03,042 - INFO - Натискаємо кнопку входу...
+2026-10-07 21:16:07,350 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=HU 611/1 X&save=true&search_mode=strict
+2026-10-07 21:16:09,334 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:16:09,345 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=HU%20611%2F1%20X&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:16:09,470 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:16:09,492 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:16:09,839 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=HU%20611%2F1%20X&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:16:09,859 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:16:09,907 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=HU%20611/1%20X&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:16:09,932 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:16:10,074 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:16:10,252 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=HU%20611%2F1%20X&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:16:10,361 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:16:10,432 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:16:13,195 - INFO - Успішно знайдено товар: MANN-FILTER HU 611/1 X з ціною 238.68
+2026-10-07 21:18:12,037 - INFO - Початок роботи для артикула: HU 611/1 X
+2026-10-07 21:18:13,706 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:18:13,706 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=HU%20611/1%20X&save=true&search_mode=strict
+2026-10-07 21:18:18,042 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=HU%20611%2F1%20X&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:18:18,092 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:18:18,097 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:18,142 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:18,233 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=HU%20611%2F1%20X&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:18:18,255 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:18,511 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=HU%20611/1%20X&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:18:18,523 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:18,609 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:18:18,648 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:18,834 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=HU%20611%2F1%20X&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:18:18,973 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:19,258 - INFO - Успішно знайдено товар: HU 611/1 X з ціною 238.68
+2026-10-07 21:18:33,129 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 21:18:34,875 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:18:34,875 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=E610H%20D38&save=true&search_mode=strict
+2026-10-07 21:18:39,236 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:18:39,239 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:18:39,293 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:18:39,295 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:39,305 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:39,313 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:39,636 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:18:39,683 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:39,725 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:18:39,767 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:39,914 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=E610H%20D38&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:18:40,060 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:18:40,602 - INFO - Успішно знайдено товар: E610H D38 з ціною 165.6
+2026-10-07 21:19:33,037 - INFO - Початок роботи для артикула: OX 182D
+2026-10-07 21:19:34,600 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:19:34,601 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OX%20182D&save=true&search_mode=strict
+2026-10-07 21:19:38,433 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=OX%20182D&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:19:38,444 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:19:38,512 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:19:38,526 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:19:38,527 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=OX%20182D&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:19:38,552 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:19:38,761 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=OX%20182D&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:19:38,789 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:19:38,986 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:19:39,007 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:19:40,143 - WARNING - Товар за артикулом OX 182D не знайдено або дані не перехоплено.
+2026-10-07 21:19:59,585 - INFO - Початок роботи для артикула: L326
+2026-10-07 21:20:01,266 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:20:01,266 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=L326&save=true&search_mode=strict
+2026-10-07 21:20:06,023 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=L326&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:20:06,101 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:20:06,157 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:20:06,172 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:20:06,190 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=L326&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:20:06,221 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:20:06,499 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=L326&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:20:06,526 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:20:06,567 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:20:06,613 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:20:06,927 - WARNING - Товар за артикулом L326 не знайдено або дані не перехоплено.
+2026-10-07 21:21:24,581 - INFO - Початок роботи для артикула: 1 457 429 178
+2026-10-07 21:21:26,330 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:21:26,330 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=1%20457%20429%20178&save=true&search_mode=strict
+2026-10-07 21:21:31,082 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=1%20457%20429%20178&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:21:31,104 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:21:31,136 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:31,170 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:31,171 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=1%20457%20429%20178&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:21:31,202 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:31,493 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=1%20457%20429%20178&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:21:31,504 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:31,584 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:21:31,620 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:31,742 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=1%20457%20429%20178&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:21:31,880 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:32,260 - INFO - Успішно знайдено товар: 1 457 429 178 з ціною 188.1
+2026-10-07 21:21:40,820 - INFO - Початок роботи для артикула: ADW192113
+2026-10-07 21:21:42,399 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:21:42,399 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=ADW192113&save=true&search_mode=strict
+2026-10-07 21:21:46,589 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=ADW192113&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:21:46,595 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:21:46,637 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:46,693 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:46,705 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=ADW192113&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:21:46,736 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:47,064 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=ADW192113&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:21:47,087 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:47,193 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:21:47,213 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:47,558 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=ADW192113&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:21:47,675 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:21:47,942 - INFO - Успішно знайдено товар: ADW192113 з ціною 129.3
+2026-10-07 21:22:20,352 - INFO - Початок роботи для артикула: L326
+2026-10-07 21:22:21,923 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:22:21,923 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=L326&save=true&search_mode=strict
+2026-10-07 21:22:25,575 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=L326&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:22:25,584 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:22:25,639 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:22:25,654 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:22:25,706 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=L326&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:22:25,744 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:22:26,062 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=L326&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:22:26,091 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:22:26,137 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:22:26,202 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:22:26,738 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=L326&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:22:26,935 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:22:27,553 - INFO - Успішно знайдено товар: L326 з ціною 195.72
+2026-10-07 21:22:59,514 - INFO - Початок роботи для артикула: OX182
+2026-10-07 21:23:01,074 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:23:01,074 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OX182&save=true&search_mode=strict
+2026-10-07 21:23:06,573 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=OX182&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:23:06,596 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:23:06,619 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:23:06,635 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:23:06,694 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=OX182&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:23:06,722 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:23:06,944 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=OX182&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:23:06,954 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:23:07,239 - WARNING - Товар за артикулом OX182 не знайдено або дані не перехоплено.
+2026-10-07 21:23:15,329 - INFO - Початок роботи для артикула: WY 301
+2026-10-07 21:23:16,851 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:23:16,851 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=WY%20301&save=true&search_mode=strict
+2026-10-07 21:23:21,072 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=WY%20301&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:23:21,129 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:23:21,132 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:23:21,256 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:23:21,265 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=WY%20301&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:23:21,279 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:23:21,482 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=WY%20301&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:23:21,490 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:23:21,711 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:23:21,735 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:23:22,416 - WARNING - Товар за артикулом WY 301 не знайдено або дані не перехоплено.
+2026-10-07 21:27:10,438 - INFO - Початок роботи для артикула: WY 301
+2026-10-07 21:27:13,443 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:27:13,444 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=WY%20301&save=true&search_mode=strict
+2026-10-07 21:27:18,066 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=WY%20301&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:27:18,083 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:27:18,117 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=WY%20301&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:27:18,130 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:18,153 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:18,156 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:18,588 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=WY%20301&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:27:18,622 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:18,675 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:27:18,769 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=WY%20301&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:27:18,774 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:18,852 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:19,963 - INFO - Успішно знайдено товар: WY 301 з ціною 109.92
+2026-10-07 21:27:34,395 - INFO - Початок роботи для артикула: OC121
+2026-10-07 21:27:37,208 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:27:37,208 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 21:27:41,385 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=OC121&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:27:41,396 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:27:41,444 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:41,466 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:41,475 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=OC121&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:27:41,503 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:41,774 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=OC121&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:27:41,785 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:41,916 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:27:41,941 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:42,074 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=OC121&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:27:42,225 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:27:43,498 - INFO - Успішно знайдено товар: OC 121 з ціною 442.56
+2026-10-07 21:28:42,788 - INFO - Початок роботи для артикула: OC121
+2026-10-07 21:28:45,953 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:28:45,953 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 21:28:50,611 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=OC121&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:28:50,619 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:28:50,661 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=OC121&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:28:50,677 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:28:50,700 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:28:50,711 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:28:51,034 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=OC121&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:28:51,044 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:28:51,218 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:28:51,361 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=OC121&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:28:51,504 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:28:51,510 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:28:52,492 - INFO - Успішно знайдено товар: OC 121 з ціною 442.56
+2026-10-07 21:29:01,483 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 21:29:04,466 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:29:04,469 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=E610H%20D38&save=true&search_mode=strict
+2026-10-07 21:29:08,685 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:29:08,704 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:29:08,742 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:08,788 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:08,790 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:29:08,819 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:09,198 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:29:09,211 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:09,484 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=E610H%20D38&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:29:09,632 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:29:09,645 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:09,697 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:11,422 - WARNING - Товар за артикулом E610H D38 не знайдено або дані не перехоплено.
+2026-10-07 21:29:19,067 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 21:29:22,153 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:29:22,153 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=E610H%20D38&save=true&search_mode=strict
+2026-10-07 21:29:27,106 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:29:27,177 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:29:27,221 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:27,279 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:27,341 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:29:27,365 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:27,697 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:29:27,781 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:29:27,804 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:27,812 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:28,747 - WARNING - Товар за артикулом E610H D38 не знайдено або дані не перехоплено.
+2026-10-07 21:29:38,327 - INFO - Початок роботи для артикула: OX 182D
+2026-10-07 21:29:41,370 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:29:41,370 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OX%20182D&save=true&search_mode=strict
+2026-10-07 21:29:46,009 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=OX%20182D&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:29:46,031 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:29:46,071 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:46,097 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:46,117 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=OX%20182D&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:29:46,150 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:46,537 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=OX%20182D&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:29:46,553 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:46,737 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:29:46,769 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:29:47,869 - WARNING - Товар за артикулом OX 182D не знайдено або дані не перехоплено.
+2026-10-07 21:30:01,292 - INFO - Початок роботи для артикула: 614 322 0003
+2026-10-07 21:30:04,426 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:30:04,426 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=614%20322%200003&save=true&search_mode=strict
+2026-10-07 21:30:09,142 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=614%20322%200003&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:30:09,198 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:30:09,367 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:30:09,398 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:30:09,816 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=614%20322%200003&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:30:09,850 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=614%20322%200003&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:30:09,912 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:30:09,938 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:30:09,938 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:30:09,940 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:30:11,007 - WARNING - Товар за артикулом 614 322 0003 не знайдено або дані не перехоплено.
+2026-10-07 21:32:10,491 - INFO - Початок роботи для артикула: 614 322 0003
+2026-10-07 21:32:13,503 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:32:13,503 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=614%20322%200003&save=true&search_mode=strict
+2026-10-07 21:32:17,320 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=614%20322%200003&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:32:17,339 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:32:17,385 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:17,437 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:17,572 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=614%20322%200003&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:32:17,578 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:17,764 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=614%20322%200003&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:32:17,819 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:17,858 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:32:17,883 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:18,406 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=614%20322%200003&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:32:18,542 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:19,741 - INFO - Успішно знайдено товар: 614 322 0003 з ціною 166.62
+2026-10-07 21:32:40,879 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 21:32:43,654 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:32:43,654 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=E610H%20D38&save=true&search_mode=strict
+2026-10-07 21:32:48,137 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:32:48,199 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:32:48,203 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:48,304 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:48,306 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:32:48,333 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:48,595 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:32:48,688 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:48,779 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:32:48,813 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:48,953 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=E610H%20D38&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:32:49,123 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:32:50,264 - INFO - Успішно знайдено товар: E610H D38 з ціною 165.6
+2026-10-07 21:33:00,548 - INFO - Початок роботи для артикула: WY 301
+2026-10-07 21:33:03,203 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:33:03,203 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=WY%20301&save=true&search_mode=strict
+2026-10-07 21:33:07,136 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=WY%20301&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:33:07,169 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:33:07,202 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:07,246 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:07,248 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=WY%20301&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:33:07,271 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:07,604 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=WY%20301&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:33:07,655 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:07,719 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:33:07,767 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:07,865 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=WY%20301&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:33:07,937 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:09,302 - INFO - Успішно знайдено товар: WY 301 з ціною 109.92
+2026-10-07 21:33:17,490 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 21:33:20,192 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 21:33:20,192 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=E610H%20D38&save=true&search_mode=strict
+2026-10-07 21:33:24,164 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:33:24,194 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:33:24,237 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:24,294 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:24,387 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:33:24,405 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:24,645 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:33:24,716 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 21:33:24,740 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:24,741 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:24,900 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=E610H%20D38&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 21:33:25,081 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:33:26,314 - INFO - Успішно знайдено товар: E610H D38 з ціною 165.6
+2026-10-07 21:47:27,081 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 21:47:28,603 - INFO - Знайдено файл сесії: state.json. Використовуємо збережену сесію.
+2026-10-07 21:47:29,874 - INFO - Повторний логін не потрібен.
+2026-10-07 21:47:29,874 - INFO - Пошук артикула: E610H D38
+2026-10-07 21:47:34,515 - INFO - Знайдено API-запит: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 21:47:34,525 - INFO - Знайдено API-запит: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 21:47:34,548 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:47:34,580 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:47:34,722 - INFO - Знайдено API-запит: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 21:47:34,732 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 21:47:34,911 - INFO - API-дані отримано за ~4.0 сек.
+2026-10-07 21:47:34,926 - INFO - Знайдено API-запит: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 21:47:34,940 - ERROR - Помилка читання JSON API: Response.json: Target page, context or browser has been closed
+2026-10-07 21:47:35,795 - WARNING - Товар за артикулом E610H D38 не знайдено або API не повернув товари.
+2026-10-07 22:06:01,401 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 22:06:05,144 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:06:05,144 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=E610H%20D38&save=true&search_mode=strict
+2026-10-07 22:06:09,299 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 22:06:09,348 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:06:09,386 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:09,433 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:09,436 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 22:06:09,467 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:09,900 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 22:06:09,938 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:10,230 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=E610H%20D38&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:06:10,436 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:10,448 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 22:06:10,544 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:11,511 - WARNING - Товар за артикулом E610H D38 не знайдено або дані не перехоплено.
+2026-10-07 22:06:19,963 - INFO - Початок роботи для артикула: E610H D38
+2026-10-07 22:06:23,154 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:06:23,154 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=E610H%20D38&save=true&search_mode=strict
+2026-10-07 22:06:27,296 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=E610H%20D38&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 22:06:27,323 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:06:27,355 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:27,391 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:27,392 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=E610H%20D38&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 22:06:27,420 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:27,676 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=E610H%20D38&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 22:06:27,688 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:27,872 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 22:06:27,911 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:28,055 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=E610H%20D38&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:06:28,179 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:06:29,094 - INFO - Успішно знайдено товар: E610H D38 з ціною 165.6
+2026-10-07 22:06:44,277 - INFO - Початок роботи для артикула: OC121
+2026-10-07 22:06:47,166 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:06:47,166 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 22:06:55,489 - WARNING - Товар за артикулом OC121 не знайдено або дані не перехоплено.
+2026-10-07 22:06:58,612 - INFO - Початок роботи для артикула: OC121
+2026-10-07 22:07:01,543 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:07:01,543 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 22:07:06,154 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=OC121&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 22:07:06,221 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:07:06,225 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:06,286 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=OC121&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 22:07:06,321 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:06,323 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:06,585 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=OC121&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 22:07:06,662 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:06,691 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 22:07:06,734 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:06,867 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=OC121&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:07:07,060 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:07,967 - INFO - Успішно знайдено товар: OC 121 з ціною 442.56
+2026-10-07 22:07:19,165 - INFO - Початок роботи для артикула: KC24
+2026-10-07 22:07:21,891 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:07:21,891 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=KC24&save=true&search_mode=strict
+2026-10-07 22:07:26,665 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=KC24&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 22:07:26,810 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:07:26,819 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:26,836 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:26,837 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=KC24&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 22:07:26,854 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:27,227 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=KC24&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 22:07:27,247 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:27,365 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 22:07:27,399 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:28,230 - WARNING - Товар за артикулом KC24 не знайдено або дані не перехоплено.
+2026-10-07 22:07:33,951 - INFO - Початок роботи для артикула: KC24
+2026-10-07 22:07:36,668 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:07:36,668 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=KC24&save=true&search_mode=strict
+2026-10-07 22:07:40,482 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/end_nodes?q=KC24&search_mode=strict&sub_nodes=1&nodes_as=obj [Status: 200]
+2026-10-07 22:07:40,524 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:07:40,567 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:40,590 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:40,596 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/brands?q=KC24&search_mode=strict&products_as=arr [Status: 200]
+2026-10-07 22:07:40,622 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:41,093 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/cars?q=KC24&search_mode=strict&cars_as=obj [Status: 200]
+2026-10-07 22:07:41,140 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:41,194 - INFO - Знайдено запит до API: https://api.bm.parts/search/products/aggregations/advertisements?search_mode=strict [Status: 200]
+2026-10-07 22:07:41,219 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:41,523 - INFO - Знайдено запит до API: https://api.bm.parts/search/products?q=KC24&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:07:41,652 - INFO - JSON-відповідь успішно перехоплена.
+2026-10-07 22:07:42,794 - INFO - Успішно знайдено товар: KC 24 з ціною 134.94
+2026-10-07 22:16:37,150 - INFO - Початок роботи для артикула: KC24
+2026-10-07 22:16:40,035 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:16:40,036 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=KC24&save=true&search_mode=strict
+2026-10-07 22:16:45,129 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:16:46,297 - WARNING - Товар за артикулом KC24 не знайдено або дані не перехоплено.
+2026-10-07 22:16:51,521 - INFO - Початок роботи для артикула: KC24
+2026-10-07 22:16:54,240 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:16:54,241 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=KC24&save=true&search_mode=strict
+2026-10-07 22:16:58,565 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:16:59,394 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=KC24&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:16:59,558 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:17:00,510 - INFO - Успішно знайдено товар: KC 24 з ціною 134.94
+2026-10-07 22:17:17,839 - INFO - Початок роботи для артикула: OC121
+2026-10-07 22:17:20,645 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:17:20,645 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 22:17:25,065 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:17:25,852 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=OC121&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:17:26,026 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:17:26,848 - INFO - Початок роботи для артикула: OC121
+2026-10-07 22:17:26,975 - INFO - Успішно знайдено товар: OC 121 з ціною 442.56
+2026-10-07 22:17:29,765 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:17:29,765 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 22:17:32,559 - INFO - Початок роботи для артикула: OC121
+2026-10-07 22:17:36,130 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:17:36,131 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 22:17:38,730 - WARNING - Товар за артикулом OC121 не знайдено або дані не перехоплено.
+2026-10-07 22:17:40,350 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:17:41,026 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=OC121&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:17:41,153 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:17:42,321 - INFO - Успішно знайдено товар: OC 121 з ціною 442.56
+2026-10-07 22:17:44,453 - INFO - Початок роботи для артикула: OC121
+2026-10-07 22:17:47,141 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:17:47,141 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 22:17:51,502 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:17:52,193 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=OC121&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:17:52,374 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:17:53,428 - INFO - Успішно знайдено товар: OC 121 з ціною 442.56
+2026-10-07 22:18:26,658 - INFO - Початок роботи для артикула: OC121
+2026-10-07 22:18:29,332 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:18:29,332 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 22:18:33,749 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:18:34,538 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=OC121&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:18:34,696 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:18:35,602 - INFO - Успішно знайдено товар: OC 121 з ціною 442.56
+2026-10-07 22:19:52,375 - INFO - Ініціалізація постійного фонового браузера...
+2026-10-07 22:19:56,512 - INFO - Миттєвий перехід до пошуку артикула: OC121
+2026-10-07 22:19:59,642 - WARNING - Товар за артикулом OC121 не знайдено.
+2026-10-07 22:20:02,238 - INFO - Миттєвий перехід до пошуку артикула: OC121
+2026-10-07 22:20:05,343 - INFO - Знайдено товар: OC 121 — Ціна: 442.56
+2026-10-07 22:20:20,485 - INFO - Миттєвий перехід до пошуку артикула: KC24
+2026-10-07 22:20:23,551 - INFO - Знайдено товар: KC 24 — Ціна: 134.94
+2026-10-07 22:20:30,135 - INFO - Миттєвий перехід до пошуку артикула: OC121
+2026-10-07 22:20:33,581 - INFO - Миттєвий перехід до пошуку артикула: OC121
+2026-10-07 22:20:33,586 - ERROR - Помилка під час навігації: Cannot switch to a different thread
+	Current:  <greenlet.greenlet object at 0x0000017D7DD11380 (otid=0x0000017D7AE25030) current active started main>
+	Expected: <greenlet.greenlet object at 0x0000017D7C205C80 (otid=0x0000017D7AE252B0) suspended active started main>
+2026-10-07 22:20:33,587 - WARNING - Товар за артикулом OC121 не знайдено.
+2026-10-07 22:20:33,842 - INFO - Знайдено товар: OC 121 — Ціна: 442.56
+2026-10-07 22:20:36,323 - INFO - Ініціалізація постійного фонового браузера...
+2026-10-07 22:20:41,719 - INFO - Миттєвий перехід до пошуку артикула: OC121
+2026-10-07 22:20:44,955 - WARNING - Товар за артикулом OC121 не знайдено.
+2026-10-07 22:23:45,944 - INFO - Запуск постійного браузера (один раз на сесію додатка)...
+2026-10-07 22:23:50,088 - INFO - Перехід за посиланням каталогу для: OC121
+2026-10-07 22:23:53,363 - WARNING - Товар за артикулом OC121 не знайдено.
+2026-10-07 22:23:59,834 - INFO - Перехід за посиланням каталогу для: OC121
+2026-10-07 22:24:03,147 - WARNING - Товар за артикулом OC121 не знайдено.
+2026-10-07 22:24:24,289 - INFO - Перехід за посиланням каталогу для: OC121
+2026-10-07 22:24:27,415 - WARNING - Товар за артикулом OC121 не знайдено.
+2026-10-07 22:25:21,270 - INFO - Ініціалізація постійного фонового браузера...
+2026-10-07 22:25:25,511 - INFO - Миттєвий перехід до пошуку артикула: OC121
+2026-10-07 22:25:28,513 - WARNING - Товар за артикулом OC121 не знайдено.
+2026-10-07 22:25:32,606 - INFO - Миттєвий перехід до пошуку артикула: OC121
+2026-10-07 22:25:35,819 - INFO - Знайдено товар: OC 121 — Ціна: 442.56
+2026-10-07 22:25:51,628 - INFO - Миттєвий перехід до пошуку артикула: KC24
+2026-10-07 22:25:51,685 - ERROR - Помилка під час навігації: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://b2b.bm.parts/catalog?q=KC24&save=true&search_mode=strict", waiting until "load"
+
+2026-10-07 22:25:51,686 - WARNING - Товар за артикулом KC24 не знайдено.
+2026-10-07 22:25:54,193 - INFO - Ініціалізація постійного фонового браузера...
+2026-10-07 22:27:47,082 - INFO - Ініціалізація постійного фонового браузера...
+2026-10-07 22:27:52,973 - INFO - Миттєвий перехід до пошуку артикула: KC24
+2026-10-07 22:27:56,090 - WARNING - Товар за артикулом KC24 не знайдено.
+2026-10-07 22:28:04,087 - INFO - Миттєвий перехід до пошуку артикула: OC121
+2026-10-07 22:28:07,389 - INFO - Знайдено товар: OC 121 — Ціна: 442.56
+2026-10-07 22:28:14,238 - INFO - Миттєвий перехід до пошуку артикула: KC24
+2026-10-07 22:28:18,245 - WARNING - Товар за артикулом KC24 не знайдено.
+2026-10-07 22:28:23,755 - INFO - Миттєвий перехід до пошуку артикула: KC24
+2026-10-07 22:28:26,665 - INFO - Миттєвий перехід до пошуку артикула: KC24
+2026-10-07 22:28:26,674 - ERROR - Помилка під час навігації: Cannot switch to a different thread
+	Current:  <greenlet.greenlet object at 0x000002B089E97000 (otid=0x000002B0870A90C0) current active started main>
+	Expected: <greenlet.greenlet object at 0x000002B0882C7240 (otid=0x000002B0870A8C00) suspended active started main>
+2026-10-07 22:28:26,675 - WARNING - Товар за артикулом KC24 не знайдено.
+2026-10-07 22:28:26,850 - INFO - Знайдено товар: KC 24 — Ціна: 134.94
+2026-10-07 22:28:33,398 - INFO - Ініціалізація постійного фонового браузера...
+2026-10-07 22:28:37,559 - INFO - Миттєвий перехід до пошуку артикула: KC24
+2026-10-07 22:28:40,781 - WARNING - Товар за артикулом KC24 не знайдено.
+2026-10-07 22:28:51,932 - INFO - Миттєвий перехід до пошуку артикула: KC24
+2026-10-07 22:28:51,933 - ERROR - Помилка під час навігації: Cannot switch to a different thread
+	Current:  <greenlet.greenlet object at 0x000002B0882C7240 (otid=0x000002B0870A8C00) current active started main>
+	Expected: <greenlet.greenlet object at 0x000002B089E97000 (otid=0x000002B0870A90C0) suspended active started main>
+2026-10-07 22:28:51,933 - WARNING - Товар за артикулом KC24 не знайдено.
+2026-10-07 22:28:54,579 - INFO - Ініціалізація постійного фонового браузера...
+2026-10-07 22:29:24,160 - INFO - Початок роботи для артикула: KC24
+2026-10-07 22:29:26,876 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:29:26,876 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=KC24&save=true&search_mode=strict
+2026-10-07 22:29:31,061 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:29:31,580 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=KC24&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:29:31,767 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:29:32,966 - INFO - Успішно знайдено товар: KC 24 з ціною 134.94
+2026-10-07 22:29:38,641 - INFO - Початок роботи для артикула: OC121
+2026-10-07 22:29:41,402 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:29:41,402 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 22:29:45,554 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:29:46,164 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=OC121&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:29:46,301 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:29:47,516 - INFO - Успішно знайдено товар: OC 121 з ціною 442.56
+2026-10-07 22:30:02,108 - INFO - Початок роботи для артикула: KC102
+2026-10-07 22:30:04,925 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:30:04,925 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=KC102&save=true&search_mode=strict
+2026-10-07 22:30:08,688 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:30:09,651 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=KC102&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:30:09,802 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:30:10,982 - INFO - Успішно знайдено товар: KC 102 з ціною 292.32
+2026-10-07 22:33:08,510 - INFO - Початок роботи для артикула: OC121
+2026-10-07 22:33:11,458 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:33:11,460 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=OC121&save=true&search_mode=strict
+2026-10-07 22:33:15,893 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:33:16,474 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=OC121&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:33:16,699 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:33:17,725 - INFO - Успішно знайдено товар: OC 121 з ціною 442.56
+2026-10-07 22:34:59,871 - INFO - Початок роботи для артикула: KC24
+2026-10-07 22:35:02,585 - INFO - Використовуємо збережену сесію (без повторного логіну).
+2026-10-07 22:35:02,585 - INFO - Перехід до каталогу за посиланням: https://b2b.bm.parts/catalog?q=KC24&save=true&search_mode=strict
+2026-10-07 22:35:06,374 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products/groups [Status: 200]
+2026-10-07 22:35:07,115 - INFO - Знайдено основний запит товарів до API: https://api.bm.parts/search/products?q=KC24&save=true&search_mode=strict&page=1&warehouses=ACF9000C2947F7AE11E28A2B02C4AD32&warehouses=waiting&warehouses=other&warehouses=B681005056BA86AD11EBDD7DA11B027B&per_page=100&cart_uuid=a6d9884d-6f4f-43e5-9683-3aafe7e3f525&products_as=arr [Status: 200]
+2026-10-07 22:35:07,271 - INFO - JSON-відповідь із товарами успішно перехоплена.
+2026-10-07 22:35:08,646 - INFO - Успішно знайдено товар: KC 24 з ціною 134.94

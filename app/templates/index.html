@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Деталь-С - Агрегатор цін автозапчастин</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f9; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #0056b3; }
+        form { display: flex; gap: 10px; margin-top: 20px; }
+        input[type="text"] { flex: 1; padding: 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 12px 24px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+        table { width: 100%; margin-top: 25px; border-collapse: collapse; }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #f8f9fa; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Деталь-С</h1>
+        <p>Агрегатор цін автозапчастин</p>
+        
+        <form action="/search" method="get">
+            <input type="text" name="part_number" placeholder="Введіть артикул запчастини (напр. W712/83)" value="{{ query or '' }}" required>
+            <button type="submit">Шукати</button>
+        </form>
+
+        {% if query %}
+            <h2>Результати пошуку для: "{{ query }}"</h2>
+            {% if results %}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Постачальник</th>
+                            <th>Артикул</th>
+                            <th>Ціна (грн)</th>
+                            <th>Дія</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in results %}
+                        <tr>
+                            <td>{{ item.site }}</td>
+                            <td>{{ item.part_number }}</td>
+                            <td><strong>{{ item.price }}</strong></td>
+                            <td><a href="{{ item.url }}" target="_blank">Перейти</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p>За вашим запитом нічого не знайдено.</p>
+            {% endif %}
+        {% endif %}
+    </div>
+</body>
+</html>

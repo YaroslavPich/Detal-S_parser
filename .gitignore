@@ -1,0 +1,6 @@
+.env
+state.json
+playwright_profile/
+parser.log
+__pycache__/
+.venv/

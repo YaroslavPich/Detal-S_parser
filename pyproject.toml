@@ -1,0 +1,26 @@
+package-mode = false
+
+[project]
+name = "detal-s"
+version = "0.1.0"
+description = "Агрегатор цін автозапчастин Деталь-С"
+authors = [
+    { name = "Yaroslav Pich", email = "your_email@example.com" }
+]
+readme = "README.md"
+requires-python = "^3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "jinja2>=3.1.3",
+    "httpx>=0.27.0",
+    "beautifulsoup4>=4.12.3",
+    "lxml>=5.1.0",
+    "curl-cffi (>=0.16.3,<0.17.0)",
+    "playwright (>=1.63.0,<2.0.0)",
+    "python-dotenv (>=1.2.4,<2.0.0)",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
